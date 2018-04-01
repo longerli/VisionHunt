@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #CCCCCC;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+#top {
+	position:absolute;
+	background-color: #333333;
+	width: 100%;
+	height: 20%;
+	
+}
+
+#sitlabel {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	font-size: 30px;
+	color: white;
+}
+
+#content {
+	position: absolute;
+	top: 150px;
+	left: 15%;
+	background-color: white;
+	width: 70%;
+	height: auto;
+}
+
+#launchtopic {
+	position: absolute;
+	top: 20px;
+	color: #999999;
+	text-decoration: none;
+	left: 85%;
+}
+
+#launchtopic:hover {
+	color: skyblue;
+}
+
+#topiccontent {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin-top: 70px;
+	margin-left: 250px;
+	/* background-color: #F1F1F1; */
+	color: black;
+	border: 2px solid #F1F1F1;
+}
+
+.contop {
+	margin-top: 0;
+	width: 100%;
+	height: 90px;
+}
+
+.topicLabel {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: #333333;
+}
+
+.topicLabel:HOVER {
+	color: #66AFE9;
+}
+
+.showPhoto {
+	position: absolute;
+	top: 100px;
+	left: 25px;
+	width: 450px;
+	height: 360px;
+}
+
+.photo {
+	width: 140px;
+	height: 180px;
+	border: 2px solid white;
+	outline: none;
+}
+
+.photo:HOVER {
+	cursor: pointer;
+}
+
+.photostyle {
+	transform: scale(3, 2);
+}

@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+
+#top {
+	background-color:#333333;
+	width: 100%;
+	height: 120px;
+}
+.webSit{
+	position: absolute;
+	top:50px;
+	left:150px;
+	color: white;
+	font-size: 30px;
+}
+#editPwd {
+	position: absolute;
+	top: 200px;
+	left: 450px;
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	font-size: 20px;
+}
+.inputNewPwd{
+	position: absolute;
+	top:50px;
+	left:90px;
+	font-size: 20px;
+}
+.confirmNewPwd{
+	position:absolute;
+	top:90px;
+	left:90px;
+	font-size: 20px;
+}
+.newPwd{
+	position: absolute;
+	top:50px;
+	left:200px;
+	width: 200px;
+	height: 30px;
+	border: 2px solid gray;
+}
+.confirmPwd{
+	position:absolute;
+	top:90px;
+	left:200px;
+	width: 200px;
+	height: 30px;
+	border: 2px solid gray;
+}
+#edit {
+	position:absolute;
+	top:150px;
+	left:150px;
+	width: 90px;
+	border: 1 solid;
+	border-radius: calc(5px);
+}
+
+#cancel {
+	position:absolute;
+	top:150px;
+	left:250px;
+	width: 90px;
+	border: 1 solid;
+	border-radius: calc(5px);
+}

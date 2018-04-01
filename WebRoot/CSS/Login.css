@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url(/Images/缆车.jpg);
+}
+
+#content {
+	
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	width: 30%;
+	height: 300px;
+	font-size: 20px;
+	background-color: white;
+	opacity: 1;
+}
+
+#count {
+	position:absolute;
+	top:20px;
+	left:50px;
+	width: 300px;
+	height: 40px;
+	border-radius: calc(3px);
+	border: 2px solid #66AFE9;
+	box-shadow: none;
+	transition: all 0.3s ease 0s;
+	outline: none;
+}
+
+#pwd {
+	position:absolute;
+	top:70px;
+	left:50px;
+	width: 300px;
+	height: 40px;
+	border-radius: calc(5px);
+	border: 2px solid #66AFE9;
+	outline: none;
+}
+
+.login {
+	position:absolute;
+	top:120px;
+	left:50px;
+	width: 300px;
+	height: 40px;
+	background-color: #66AFE9;
+	border-radius: calc(10px);
+	border: 2px solid #66AFE9;
+	outline: none;
+}
+
+#forgetPwd{
+	position: absolute;
+	top:170px;
+	left:50px;
+	font-size: 15px;
+	color:#66AFE9; 
+	cursor: pointer;
+}
+
+
+#foreg {
+	position: absolute;
+	top:172px;
+	font-size: 15px;
+	left: 300px;
+	color: #66AFE9;
+	text-decoration: none;
+}

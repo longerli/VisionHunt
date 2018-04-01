@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	/* background-color: #C0C0C0; */
+}
+
+.top {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	background-color: #333333;
+}
+
+.webSit {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	font-size: 30px;
+	color: white;
+}
+
+.center {
+	position: absolute;
+	top: 150px;
+	left: 20%;
+	width: 60%;
+	min-height:150%;
+	/* background-color: white; */
+}
+.articleList{
+	position:absolute;
+	width: 100%;
+	min-height: 100%;
+}
+.separetePage{
+	position: relative;
+	margin-top: 50px;
+	left:30%;
+	width: 40%;
+	height: 50px;
+	color: brown;
+	text-align: center;
+}
+.articleDetails{
+	position:absolute;
+	width: 100%;
+	min-height:150%;
+
+}
+a{
+	text-decoration: none;
+}
+.publishArticle{
+	position: absolute;
+	left:75%;
+	width: 100px;
+	height: 40px;
+	background-color:brown;
+	border:1px solid brown;
+	color: white;
+}
+
+.arTitle{
+	position: relative;
+	top: 5%;
+	left:5%;
+	color: brown;
+	cursor: pointer;
+}
+.arDate{
+	position: relative;
+	margin-top: 50px;
+	left:5%;
+	color: brown;
+}
+.divisionLine{
+	position: relative;
+	margin-top: 20px;
+	color: brown;
+}
+.authorName{
+	position: relative;
+	top:5%;
+	left:10%;
+	color: brown; 
+}
+.back{
+	position: absolute;
+	/* top:2%; */
+	margin-left:5%;
+	color: gray;
+	font-size: 15px;
+	cursor: pointer;
+}
+.reviewedArTitle{
+	margin-top:7%;
+	margin-left:5%;
+	color: brown;
+}
+.reviewedArDate{
+	top:10%;
+	margin-left:5%;
+	color: brown;
+}
+.reviewedArAuthor{
+	margin-left: 20px;
+	color: brown;
+}
+.reviewedArContent{
+	position:relative;
+	top: 5%;
+	margin-left:5%;
+	width: 95%;
+	min-height:150%;
+	text-align: left;
+}
+.arComment{
+	position:absolute;
+	left:5%;
+	width: 90%;
+	height: 100px;
+	border: 2px solid gray;
+}
+.submitArComment{
+	position: relative;
+	top:120px;
+	left:85%;
+	width: 80px;
+	height: 40px;
+	border-radius: 20px;
+	border:1px solid green;
+	background-color: green;
+	outline: none;
+	color: white;
+}
+.submitArComment:HOVER{
+	background-color: forestgreen;
+}
+.articelComment{
+	position: relative;
+	top:150px;
+	width: 100%;
+	height: auto;
+}
+.userIcon{
+	position:absolute;
+	left:15%;
+	width: 35px;
+	height: 35px;
+}
+.content{
+	position: absolute;
+	margin-top:10px;
+	left:20%;
+	font-size: 15px;
+}
+.arCommDate{
+	position: absolute;
+	margin-top:10px;
+	left:5%;
+	font-size: 15px;
+}
+.prePage{
+	cursor: pointer;
+}
+.nextPage{
+	cursor: pointer;
+}
+.backHomePage{
+	position: absolute;
+	left:90%;
+	width: 100px;
+	height: 40px;
+	background-color:brown;
+	border:1px solid brown;
+	color: white;
+}

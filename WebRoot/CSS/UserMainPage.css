@@ -1,0 +1,466 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+}
+
+#left {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	background-color: #C24F4A;
+	overflow: hidden;
+}
+
+#back {
+	position: absolute;
+	top: 1%;
+	left: 5%;
+	width: 100px;
+	height: 30px;
+	color: white;
+	cursor: pointer;
+	border: 1px solid brown;
+}
+
+#headImg {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 150px;
+	height: 150px;
+	border-radius: calc(100%);
+}
+
+#userName {
+	position: absolute;
+	top: 33%;
+	left: 40%;
+	color: white;
+	font-size: 30px;
+}
+
+button {
+	width: 100%;
+	height: 50px;
+	background-color: brown;
+	border: 0 solid brown;
+	border-bottom: 2px solid coral;
+	color: white;
+	font-size: 17px;
+}
+
+button:hover {
+	background-color: coral;
+}
+
+#myPhoto {
+	position: absolute;
+	top: 320px;
+}
+
+#myArticle {
+	position: absolute;
+	top: 370px;
+}
+
+#myTopic {
+	position: absolute;
+	top: 420px;
+}
+
+#myAttention {
+	position: absolute;
+	top: 420px;
+}
+
+#myCollect {
+	position: absolute;
+	top: 470px;
+}
+
+#accountSet {
+	position: absolute;
+	top: 570px;
+}
+
+#right {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 75%;
+	height: 100%;
+	background-color:
+}
+
+.showPhoto {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: auto;
+}
+
+.showArticle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.showTopic {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.showAttention {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.showCollect {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.photo {
+	position: relative;
+	left: 5%;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	background-color: black;
+}
+
+.photo:HOVER {
+	opacity: 0.4;
+}
+
+.photoDate {
+	position: absolute;
+	margin-top: 6%;
+	margin-left: -8%;
+	color: green;
+}
+
+.separatePage {
+	position: absolute;
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	background-color: fuchsia;
+}
+
+.prePage {
+	position: absolute;
+	top: 90%;
+	left: 40%;
+	cursor: pointer;
+	color: brown;
+}
+
+.prePage:HOVER {
+	color: coral;
+}
+
+.nextPage {
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	cursor: pointer;
+	color: brown;
+}
+
+.nextPage:HOVER {
+	color: coral;
+}
+
+.current {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	cursor: pointer;
+	color: brown;
+}
+
+.total {
+	position: absolute;
+	top: 90%;
+	left: 60%;
+	cursor: pointer;
+	color: brown;
+}
+
+.arTitle {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	color: brown;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.showArContent {
+	position: relative;
+	top: 55px;
+	left: 50px;
+}
+
+.divisionLine {
+	position: relative;
+	top: 45px;
+	color: skyblue;
+}
+
+.extraPrePage {
+	position: absolute;
+	top: 92%;
+	left: 35%;
+	color: brown;
+	cursor: pointer;
+}
+
+.extraPrePage:HOVER {
+	color: coral;
+}
+
+.extraNextPage {
+	position: absolute;
+	top: 92%;
+	left: 40%;
+	color: brown;
+	cursor: pointer;
+}
+
+.extraNextPage:HOVER {
+	color: coral;
+}
+
+.CurrentPage {
+	position: absolute;
+	top: 92%;
+	left: 45%;
+	color: brown;
+}
+
+.TotalPage {
+	position: absolute;
+	top: 92%;
+	left: 55%;
+	color: brown;
+}
+
+.attentions {
+	position: relative;
+	display: inline-block;
+	top: 10%;
+	left: 5%;
+	width: 250px;
+	height: 80px;
+	background-color: gray;
+	border: 4px solid white;
+}
+
+.beAttUserIcon {
+	position: relative;
+	margin-top: 7%;
+	margin-left: 3%;
+	width: 50px;
+	height: 50px;
+}
+
+.beAttUserName {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 5%;
+	color: brown;
+}
+
+.cancleAttention {
+	position: absolute;
+	margin-top: 14%;
+	margin-left: 50%;
+	width: 30px;
+	height: 10px;
+	cursor: pointer;
+}
+
+.collectedPhoto {
+	position: relative;
+	top: 5%;
+	left: 5%;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 4px solid white;
+}
+
+.photoDetails {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.editPhoto {
+	position: absolute;
+	margin-top: 10%;
+	left: 65%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.deletePhoto {
+	position: absolute;
+	left: 68%;
+	margin-top: 10%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.selectedPhoto {
+	position: relative;
+	margin-top: 10%;
+	left: 15%;
+	width: 500px;
+	height: 600px;
+}
+
+.close {
+	margin-top: -2px;
+	width: 21px;
+	height: auto;
+}
+
+.modalPhoto {
+	width: 500px;
+	height: 600px;
+	background-color: #ADADAD;
+}
+
+.editedPhoto {
+	width: 100%;
+	height: 100%;
+}
+
+.closePhoto {
+	position: absolute;
+	top: 20px;
+	left: 490px;
+	width: 25px;
+	height: 25px;
+}
+
+.modalPhotoDes {
+	position: relative;
+	margin-top: 30px;
+	width: 100%;
+	height: 100px;
+	border: 2px solid gray;
+}
+
+.modalPhotoLabel {
+	width: 100%;
+	height: 30px;
+	border: 2px solid gray;
+}
+
+.cancelEdit {
+	width: 60px;
+	height: 50px;
+	border-radius: 4px;
+}
+
+.submitEdit {
+	width: 60px;
+	height: 50;
+	border-radius: 4px;
+}
+
+.reUploadPhoto {
+	position: relative;
+	margin-top: 15px;
+	margin-left: 200px;
+}
+
+.articleDetails {
+	position: absolute;
+	left: 5%;
+	width: 95%;
+	height: auto;
+}
+
+.articleTitle {
+	position: absolute;
+	top: 5%;
+	/* left:30%; */
+	color: brown;
+}
+
+.articleDate {
+	position: absolute;
+	margin-top: 7%;
+	color: brown;
+}
+
+.arDivisionLine {
+	position: relative;
+	top: 100px;
+	color: brown;
+}
+
+.editArticle {
+	position: absolute;
+	margin-top: 7%;
+	left: 75%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.deleteArticle {
+	position: absolute;
+	margin-top: 7%;
+	left: 80%;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.articleContent {
+	position: absolute;
+	margin-top: 10%;
+}
+
+.beEditArticleTitle {
+	width: 100%;
+	height: 50px;
+	border: 1px solid gray;
+}
+
+.beEditArticleLabel {
+	width: 100%;
+	height: 30px;
+	border: 2px solid gray;
+}
+
+.toolbar {
+	border: 1px solid #ccc;
+}
+
+.text {
+	border: 1px solid #ccc;
+	height: 400px;
+	min-height: 400px;
+}
+
+.cancelCollect {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 30px;
+	width: 20px;
+	height: 20px;
+}
